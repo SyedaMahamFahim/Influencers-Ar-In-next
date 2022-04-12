@@ -3,7 +3,7 @@ import styles from "./header.module.css";
 import Image from "next/image";
 import { Logo } from "../../assests/index";
 import Link from "next/link";
-import { NavLinks } from "../../Static/index";
+import { NavLinks } from "../../StaticData/index";
 import { useRouter } from "next/router";
 import { ImCross } from "react-icons/im";
 import { GiHamburgerMenu } from "react-icons/gi";

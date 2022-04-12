@@ -1,0 +1,39 @@
+.heroSection_container{
+    display: flex;
+    
+}
+.heroSection__vector_bg{
+    width: 100%;
+    background-size: cover;
+    background-repeat: repeat;
+    position: relative;
+    z-index: 1;
+}
+.heroSection__vector_bg::before{
+    background-image: url(https://influencers.ar-ad.com/wp-content/uploads/2021/06/Vector-12.png);
+    background-size: cover;
+    position: absolute;
+    top: -201px;
+    left: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    content: "";
+}
+
+.heroSection_svg_bg{
+    max-width: 1100px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+   
+.heroSection_content{
+    
+}
