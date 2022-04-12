@@ -1,6 +1,6 @@
 import {AppWrapper} from '../wrappers/index'
 
-const Home=()=> {
+const Services=()=> {
   return (
    <>
    
@@ -9,4 +9,4 @@ const Home=()=> {
   )
 }
 
-export default AppWrapper(Home);
+export default AppWrapper(Services);
